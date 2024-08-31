@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1></h1>
+        <div class="toolbar">
+            <button id="penButton" class="tool-button">✏️ Pen</button>
+            <button id="markerButton" class="tool-button">🖍️ Marker</button>
+            <button id="eraserButton" class="tool-button">🧹 Eraser</button>
+            <button id="textButton" class="tool-button">🔤 Text</button>
+            <button id="colorChangeButton" class="tool-button">🎨 Change Color</button>
+            <input type="color" id="colorPicker" class="color-picker" value="#000000">
+            <button id="clearButton" class="tool-button">🗑️ Clear</button>
+            <button id="saveButton" class="tool-button">💾 Save as Image</button>
+        </div>
+        <canvas id="whiteboard"></canvas>
+        <p id="imageUrl"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
